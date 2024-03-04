@@ -1,0 +1,19 @@
+{
+    "name": "fontai/propel2-diff-behavior",
+    "version": "1.0",
+    "description": "Fontai Propel2 diff behavior",
+    "type": "propel-behavior",
+    "extra": {
+        "name": "diff",
+        "class": "\\Fontai\\DiffBehavior"
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "propel/propel": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fontai\\": "src"
+        }
+    }
+}
